@@ -2,7 +2,7 @@
 Extensible Classic Mac application to get information about other applications.
 
 # Compiling
-[CodeWarrior 6](https://macintoshgarden.org/apps/codewarrior-6) required.
+[CodeWarrior 6](https://macintoshgarden.org/apps/codewarrior-6) required. Two files, *AppInfo.mcp.sit* and *AppInfo.rsrc.sit* will need to be expanded with [StuffIt Expander](https://macintoshgarden.org/apps/stuffit-expander-55). These are the CodeWarrior project file and resource file, respectively.
 
 # Creating Plugins
 Using [Resorcerer](https://macintoshgarden.org/apps/resorcerer-125), you can add your own plugins to AppInfo. Plugins are defined in the PLUG resource.
