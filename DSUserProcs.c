@@ -226,7 +226,7 @@ OSErr ProcessItem(FSSpecPtr myFSSPtr)
         !(GetFileType(myFSSPtr) == kGenericControlPanelIcon) &&
         !(GetFileType(myFSSPtr) == kGenericDeskAccessoryIcon)
     ) {
-        ErrorAlert(kErrStringListID, ERROR(kNotAPPLErr));
+        //ErrorAlert(kErrStringListID, ERROR(kNotAPPLErr));
         
         return(err);
     }
@@ -332,7 +332,7 @@ OSErr ProcessItem(FSSpecPtr myFSSPtr)
 }
 
 /*
-	This routine is called when the user chooses "Select File…" from the
+	This routine is called when the user chooses "Select File√â" from the
 	File Menu.
 	
 	Currently it simply calls the new StandardGetFile routine to have the
