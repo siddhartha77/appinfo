@@ -205,7 +205,7 @@ pascal OSErr _HandleDocs (AppleEvent *theAppleEvent, AppleEvent *reply, Boolean 
 	FailErr(err = AECountItems (&docList, &itemsInList));
 	
 	if (itemsInList > 1) {
-	    ErrorAlert(kErrStringListID, ERROR(kMoreThanOneErr));
+	    //ErrorAlert(kErrStringListID, ERROR(kMoreThanOneErr));
 	    
 	    return err;
 	}
